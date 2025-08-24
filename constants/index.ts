@@ -89,6 +89,96 @@ export const resumes: Resume[] = [
       },
     },
   },
+   {
+      id: "4",
+      companyName: "Google",
+      jobTitle: "DevOps Developer",
+      imagePath: "/images/resume-4.png",
+      resumePath: "/resumes/resume-4.pdf",
+      feedback: {
+        overallScore: 85,
+        ATS: {
+          score: 90,
+          tips: [],
+        },
+        toneAndStyle: {
+          score: 90,
+          tips: [],
+        },
+        content: {
+          score: 90,
+          tips: [],
+        },
+        structure: {
+          score: 90,
+          tips: [],
+        },
+        skills: {
+          score: 90,
+          tips: [],
+        },
+      },
+    },
+ {
+    id: "5",
+    companyName: "Google",
+    jobTitle: "Flutter Developer",
+    imagePath: "/images/resume-5.png",
+    resumePath: "/resumes/resume-5.pdf",
+    feedback: {
+      overallScore: 85,
+      ATS: {
+        score: 90,
+        tips: [],
+      },
+      toneAndStyle: {
+        score: 90,
+        tips: [],
+      },
+      content: {
+        score: 90,
+        tips: [],
+      },
+      structure: {
+        score: 90,
+        tips: [],
+      },
+      skills: {
+        score: 90,
+        tips: [],
+      },
+    },
+  },
+   {
+      id: "6",
+      companyName: "Google",
+      jobTitle: "Backend Developer",
+      imagePath: "/images/resume-6.png",
+      resumePath: "/resumes/resume-6.pdf",
+      feedback: {
+        overallScore: 85,
+        ATS: {
+          score: 90,
+          tips: [],
+        },
+        toneAndStyle: {
+          score: 90,
+          tips: [],
+        },
+        content: {
+          score: 90,
+          tips: [],
+        },
+        structure: {
+          score: 90,
+          tips: [],
+        },
+        skills: {
+          score: 90,
+          tips: [],
+        },
+      },
+    },
 ];
 
 export const AIResponseFormat = `

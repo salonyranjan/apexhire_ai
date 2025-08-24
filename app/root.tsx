@@ -6,6 +6,10 @@ import {
   Scripts,
   ScrollRestoration,
 } from "react-router";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Home from "./routes/home";
+import Auth from "./routes/auth";
+
 
 import type { Route } from "./+types/root";
 import "./app.css";
@@ -33,6 +37,7 @@ export function Layout({ children }: { children: React.ReactNode }) {
         <Links />
       </head>
       <body>
+          <script src="https://js.puter.com/v2/"></script>
         {children}
         <ScrollRestoration />
         <Scripts />
